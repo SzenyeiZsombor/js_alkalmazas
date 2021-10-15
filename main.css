@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Raleway', sans-serif;
+    line-height: 2;
+    letter-spacing: 1px;
+    background-color: #D2CFD2;
+}
+
+.btnB {
+    background: #48c010;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: background 500ms ease-in-out;
+    font-size: 14px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    border: 1px solid #48c010;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.btnB:hover {
+    background: transparent;
+    color: #000;
+}
+
+.btnR {
+    background: #ee4b0b;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: background 500ms ease-in-out;
+    font-size: 14px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    border: 1px solid #ee4b0b;
+    margin: 30px;
+    cursor: pointer
+}
+
+.btnR:hover {
+    background: transparent;
+    color: #000;
+}
+
+.gombok {
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+
+ol, ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+#hibauzenet {
+    text-align: center;
+    visibility: hidden;
+    padding: 20px;
+    background-color: #f31a0b;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
